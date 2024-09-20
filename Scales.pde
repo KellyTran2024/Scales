@@ -11,8 +11,8 @@ void draw() {
   shootingStar(250,500,40);
   shootingStar(500,500,40);
   */
-    for (int y = 0; y <1500; y += 63) {
-    for (int x = 0; x < 1500; x +=63) {
+    for (int y = 0; y <1500; y += 61) {
+    for (int x = 0; x < 1500; x +=61) {
      shootingStar(x,y,30);
     }
    }
